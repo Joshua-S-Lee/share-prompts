@@ -1,5 +1,5 @@
 import Image from 'next/image'
-
+// This is home, the default page. When going to the base domain this is what will be rendered.
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
