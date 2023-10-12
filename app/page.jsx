@@ -1,3 +1,4 @@
+import Feed from "@components/Feed"
 
 const Home = () => {
   return (
@@ -10,7 +11,8 @@ const Home = () => {
       <p className="desc text-center">
         Promptopia is a thing that does stuff. It's pretty cool. something blah blah blah about ai and prompts and stuff.
       </p>
-      {/* list component */}
+      
+      <Feed/>
 
     </section>
   )
